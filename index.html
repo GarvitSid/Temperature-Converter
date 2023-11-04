@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AddOn.css">
+    <title>Temperature converter scale</title>
+</head>
+<body>
+    <div class="container">
+        <form id="calTemp" onclick= "submitAct()">
+            <label>Choose Your Temperature<br>Conversion Preference</label>
+            <br>
+            <br>
+            <input type="number" id="num" class="input" value="0">
+            <select id="tempDifference" class="select">
+                <option value="cel">&#176;Celsius</option>
+                <option value="fah">&#176;Fahrenheit</option>
+            </select>
+            <br>
+            <br>
+            <output id="result"></output>
+        </form>
+    </div>
+    <script src="working.js"></script>
+</body>
+</html>

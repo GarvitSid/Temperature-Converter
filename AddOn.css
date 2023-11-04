@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: azure;
+    background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp2757874.gif');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#calTemp {
+    padding: 29px 67px;
+    min-height: 300px;
+    height: 50%;
+    width: 50%;
+    min-width: 550px;
+    background-color: #cdd2e1;
+    border: 0px;
+    margin: 20px;
+    margin-top: 200px;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 35px;
+    line-height: 60px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#num {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+#tempDifference {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+#num:hover{
+    background-color:rgb(33, 179, 220);
+    cursor: pointer;
+}
+
+#tempDifference:hover{
+    background-color:rgb(33, 179, 220);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input{
+    background-color: rgb(141, 215, 133);
+}
+
+.select{
+    background-color: rgb(141, 215, 133);
+}
